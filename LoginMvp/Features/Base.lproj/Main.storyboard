@@ -49,15 +49,19 @@
                                     <segue destination="eNs-Rm-kpL" kind="show" id="QrB-XP-wDD"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIE-kS-1ED" customClass="SelectionButton" customModule="LoginMvp" customModuleProvider="target">
-                                <rect key="frame" x="162" y="539" width="97" height="42"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RIE-kS-1ED" customClass="SelectionButton" customModule="LoginMvp" customModuleProvider="target">
+                                <rect key="frame" x="158.5" y="539" width="97" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="97" id="5Na-br-2ZJ"/>
+                                    <constraint firstAttribute="height" constant="42" id="lbR-Yh-Zjp"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="XCT-zq-Tdw" firstAttribute="centerX" secondItem="RIE-kS-1ED" secondAttribute="centerX" id="Ff9-eh-i6F"/>
                             <constraint firstItem="Fvq-86-zcV" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="GvI-Sm-cGc"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="eQT-bn-nxS" secondAttribute="trailing" constant="20" id="HM3-t9-n7r"/>
                             <constraint firstItem="Fvq-86-zcV" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="164" id="I7F-lH-SOM"/>
@@ -66,6 +70,7 @@
                             <constraint firstItem="eQT-bn-nxS" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="QN9-SC-ZhH"/>
                             <constraint firstItem="eQT-bn-nxS" firstAttribute="top" secondItem="Fvq-86-zcV" secondAttribute="bottom" constant="23" id="WY9-3h-vuH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Fvq-86-zcV" secondAttribute="trailing" constant="20" id="Ysq-9n-faP"/>
+                            <constraint firstItem="RIE-kS-1ED" firstAttribute="top" secondItem="XCT-zq-Tdw" secondAttribute="bottom" constant="46" id="Zre-qz-yhk"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4ng-zD-pQs"/>
@@ -117,7 +122,7 @@
     </scenes>
     <designables>
         <designable name="RIE-kS-1ED">
-            <size key="intrinsicContentSize" width="78" height="30"/>
+            <size key="intrinsicContentSize" width="46" height="30"/>
         </designable>
     </designables>
     <resources>
