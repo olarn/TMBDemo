@@ -8,6 +8,10 @@
 import UIKit
 
 class MainScreenViewController: UIViewController {
+    
+    lazy var presenter: MainScreenPresenterProtocol = {
+        return MainScreenPresenter()
+    }()
 
     override func viewDidLoad() {
         super.viewDidLoad()
