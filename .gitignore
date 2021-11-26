@@ -15,6 +15,8 @@ MockingbirdSupport/
 ## compatibility with Xcode 3 and earlier (ignoring not required starting Xcode 4)
 build/
 DerivedData/
+*.xcworkspace/
+Pods/
 *.moved-aside
 *.pbxuser
 !default.pbxuser
