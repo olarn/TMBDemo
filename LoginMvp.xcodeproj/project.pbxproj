@@ -22,6 +22,7 @@
 		3769D46725AECC9000E06E65 /* XCTestCase+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3769D46625AECC9000E06E65 /* XCTestCase+Extension.swift */; };
 		37F46B832750D8CB00C5FFB4 /* MainScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F46B822750D8CB00C5FFB4 /* MainScreenViewController.swift */; };
 		37F46B872750E27600C5FFB4 /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F46B862750E27600C5FFB4 /* MoreViewController.swift */; };
+		37F46B892750E72C00C5FFB4 /* MainScreenPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37F46B882750E72C00C5FFB4 /* MainScreenPresenter.swift */; };
 		5CC555949AEC38A3F08050B4 /* LoginMvpTests-LoginMvpMocks.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA2A9629488433F88A1167CF /* LoginMvpTests-LoginMvpMocks.generated.swift */; };
 		F4D27D5E24921F12744DB986 /* Pods_LoginMvp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DF7F1C838B8AF196A661E64 /* Pods_LoginMvp.framework */; };
 /* End PBXBuildFile section */
@@ -58,6 +59,7 @@
 		377E9A2425AF027700739DAE /* Storybook.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Storybook.storyboard; sourceTree = "<group>"; };
 		37F46B822750D8CB00C5FFB4 /* MainScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenViewController.swift; sourceTree = "<group>"; };
 		37F46B862750E27600C5FFB4 /* MoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		37F46B882750E72C00C5FFB4 /* MainScreenPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainScreenPresenter.swift; sourceTree = "<group>"; };
 		3DF7F1C838B8AF196A661E64 /* Pods_LoginMvp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoginMvp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4738CF7C2023EE6CE50A6EF6 /* Pods-LoginMvpTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMvpTests.release.xcconfig"; path = "Target Support Files/Pods-LoginMvpTests/Pods-LoginMvpTests.release.xcconfig"; sourceTree = "<group>"; };
 		75124926BE4F8BAF96787987 /* Pods-LoginMvp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoginMvp.debug.xcconfig"; path = "Target Support Files/Pods-LoginMvp/Pods-LoginMvp.debug.xcconfig"; sourceTree = "<group>"; };
@@ -191,6 +193,7 @@
 			children = (
 				37F46B822750D8CB00C5FFB4 /* MainScreenViewController.swift */,
 				37F46B862750E27600C5FFB4 /* MoreViewController.swift */,
+				37F46B882750E72C00C5FFB4 /* MainScreenPresenter.swift */,
 			);
 			path = MainScreen;
 			sourceTree = "<group>";
@@ -444,6 +447,7 @@
 			files = (
 				3755BCCB25AE89400054F378 /* LoginViewController.swift in Sources */,
 				3755BCC725AE89400054F378 /* AppDelegate.swift in Sources */,
+				37F46B892750E72C00C5FFB4 /* MainScreenPresenter.swift in Sources */,
 				3755BCC925AE89400054F378 /* SceneDelegate.swift in Sources */,
 				3755BCE925AE91E70054F378 /* RestClient.swift in Sources */,
 				37F46B872750E27600C5FFB4 /* MoreViewController.swift in Sources */,
